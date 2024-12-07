@@ -1,18 +1,28 @@
 {
-    "name": "jhonattan/response-helper-laravel",
-    "description": "this package creates a standard interface for returning endpoints",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Jhonattan\\ResponseHelperLaravel\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "jhondev123",
-            "email": "jhonattan.curtarelli@outlook.com"
-        }
-    ],
-    "require": {}
+  "name": "jhonattan/response-helper-laravel",
+  "description": "this package creates a standard interface for returning endpoints",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Jhonattan\\ResponseHelperLaravel\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "jhondev123",
+      "email": "jhonattan.curtarelli@outlook.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jhonattan\\ResponseHelperLaravel\\HttpResponseServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
 }
