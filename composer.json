@@ -17,12 +17,5 @@
   "require": {
     "php": "^8.0"
   },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Jhonattan\\ResponseHelperLaravel\\HttpResponseServiceProvider"
-      ]
-    }
-  },
   "minimum-stability": "dev"
 }
